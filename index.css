@@ -38,6 +38,7 @@ h1 {
     text-align: center;
     animation: 1000s intro linear;
     display: block;
+    z-index: 100;
 }
 
 p {
@@ -47,6 +48,47 @@ p {
     transform: rotateX(20deg) rotateY(0deg);
     animation: 400s starwars linear;
     font-size: 400%;
+    perspective: 0;
+
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-size: 200%;
+    animation: 20s logo linear;
+    display: block;
+    z-index: 1;
+    opacity: 0;
+
+}
+
+
+@keyframes logo{
+    from{
+        display: none;
+        transform: translateZ(0);
+        opacity: 100
+    }
+
+    20%{
+        display: none;
+
+    }
+
+    50%{
+        display: block;
+    }
+
+    to{
+        display: none;
+        transform: translateZ(-2000px);
+        opacity: 0
+    }
+
+
 }
 
 @keyframes starwars {
