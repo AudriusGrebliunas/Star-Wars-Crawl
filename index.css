@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1544656376-ffe19d4b7353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80);
+    background-size: 100%;
+    background-repeat: repeat;
+   
+
+}
+
+
+div{
+    
+    position: relative;
+    margin: auto;
+    width: 70%;
+    
+}
+
+h1{
+    color: rgb(9, 75, 181);
+    text-align: center;
+}
+
+p{
+    color: #E8C627;
+}
+
+
+
+
+
+/* div {
+    
+    animation-duration: 50s;
+    animation-name: starwars;
+    transform-origin:50% 100% ;
+    transform: rotateX(20deg) translate3d(0px, 2000px, 0px);
+     transform: translate3d(0px, 0px, -100px);
+    text-align: center;
+d    color: black;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+   
+
+h1{
+    animation-duration: 3s;
+    animation-name: intro;
+    display: none;
+} 
+@keyframes intro{
+    from{
+        display: block;
+
+    }
+
+    
+
+    to{
+        display: block;
+    }
+}
+ 
+
+
+@keyframes starwars {
+    from {
+         margin-top: 0px;
+        display: block;
+        margin-top: 900px;
+        scale: (2, 2);
+        transform:perspective(300px) rotateX(20deg) translate3d(0px, 2000px, 0px);transform:perspective(300px) rotateX(20deg) translate3d(0px, 2000px, px);
+    }
+
+ 
+    20%{
+        scale: (1.8, 1.8)
+        
+    }
+
+    40%{
+        scale: ()
+    }
+
+    to {
+        display: block;
+
+        margin-top: -900px;
+    }
+
+    to{
+        transform:perspective(300px) rotateX(20deg) translate3d(0px, 2000px, 0px);transform:perspective(300px) rotateX(20deg) translate3d(0px, 0px, px);
+    }
+
+} */
